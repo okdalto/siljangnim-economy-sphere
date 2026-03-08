@@ -1,0 +1,101 @@
+{
+  "dataset_name": "actual_public_bilateral_trade_flows_us_slice_dec_2025",
+  "description": "Actual public monthly bilateral goods trade statistics for the United States and selected partner countries, compiled from U.S. Census Bureau country trade pages.",
+  "period": "2025-12",
+  "unit": "million USD",
+  "notes": [
+    "This is real public country-to-country monthly trade data, not synthetic data.",
+    "It is a U.S.-centered slice rather than a full world matrix.",
+    "Exports and imports are U.S. Census goods trade values, nominal and not seasonally adjusted."
+  ],
+  "records": [
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Canada",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 25512.0,
+      "imports_usd_millions": 31774.2,
+      "trade_balance_usd_millions": -6262.2,
+      "source": "U.S. Census Bureau, Trade in Goods with Canada",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c1220.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Mexico",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 28161.1,
+      "imports_usd_millions": 42360.3,
+      "trade_balance_usd_millions": -14199.2,
+      "source": "U.S. Census Bureau, Trade in Goods with Mexico",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c2010.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "China",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 8387.9,
+      "imports_usd_millions": 21104.3,
+      "trade_balance_usd_millions": -12716.4,
+      "source": "U.S. Census Bureau, Trade in Goods with China",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c5700.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Japan",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 6330.2,
+      "imports_usd_millions": 12178.5,
+      "trade_balance_usd_millions": -5848.3,
+      "source": "U.S. Census Bureau, Trade in Goods with Japan",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c5880.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Germany",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 7183.9,
+      "imports_usd_millions": 15277.9,
+      "trade_balance_usd_millions": -8094.0,
+      "source": "U.S. Census Bureau, Trade in Goods with Germany",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c4280.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "South Korea",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 5894.1,
+      "imports_usd_millions": 11837.0,
+      "trade_balance_usd_millions": -5942.9,
+      "source": "U.S. Census Bureau, Trade in Goods with Korea, South",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c5800.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Vietnam",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 1591.3,
+      "imports_usd_millions": 18535.6,
+      "trade_balance_usd_millions": -16944.4,
+      "source": "U.S. Census Bureau, Trade in Goods with Vietnam",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c5520.html"
+    },
+    {
+      "date": "2025-12",
+      "origin_country": "United States",
+      "destination_country": "Malaysia",
+      "flow_basis": "U.S. exports / partner imports view",
+      "exports_usd_millions": 2460.5,
+      "imports_usd_millions": 5732.2,
+      "trade_balance_usd_millions": -3271.7,
+      "source": "U.S. Census Bureau, Trade in Goods with Malaysia",
+      "source_url": "https://www.census.gov/foreign-trade/balance/c5570.html"
+    }
+  ]
+}

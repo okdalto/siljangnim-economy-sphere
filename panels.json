@@ -1,120 +1,96 @@
 {
   "controls": {
-    "title": "🌍 Globe & Atmosphere Controls",
+    "title": "🛰️ Orbital Visualization",
     "controls": [
       {
         "type": "separator",
-        "label": "🌐 지구 설정"
+        "label": "📷 Camera"
       },
       {
         "type": "slider",
-        "label": "카메라 거리",
+        "label": "Camera Distance",
         "uniform": "u_camera_distance",
-        "min": 8,
-        "max": 40,
-        "step": 0.5,
-        "default": 17
+        "min": 1.5,
+        "max": 10,
+        "step": 0.1,
+        "default": 3
       },
       {
         "type": "slider",
-        "label": "지구 스케일",
-        "uniform": "u_globe_scale",
-        "min": 0.5,
-        "max": 2,
-        "step": 0.01,
-        "default": 1
-      },
-      {
-        "type": "slider",
-        "label": "Y축 회전 (°)",
-        "uniform": "u_rotation",
-        "min": -180,
-        "max": 180,
-        "step": 1,
-        "default": 0
-      },
-      {
-        "type": "toggle",
-        "label": "UV 플립",
-        "uniform": "u_uv_flip",
-        "default": true
-      },
-      {
-        "type": "slider",
-        "label": "마우스 감도",
+        "label": "Mouse Sensitivity",
         "uniform": "u_sensitivity",
-        "min": 0.5,
+        "min": 0.3,
         "max": 5,
         "step": 0.1,
         "default": 1.5
       },
       {
-        "type": "separator",
-        "label": "🚀 교역 애니메이션"
-      },
-      {
-        "type": "slider",
-        "label": "애니메이션 속도",
-        "uniform": "u_speed",
-        "min": 0.1,
-        "max": 20,
-        "step": 0.1,
-        "default": 5
-      },
-      {
-        "type": "slider",
-        "label": "트레일 길이",
-        "uniform": "u_trail",
-        "min": 0.05,
-        "max": 0.5,
-        "step": 0.01,
-        "default": 0.16
-      },
-      {
-        "type": "slider",
-        "label": "화물 크기",
-        "uniform": "u_ball_size",
-        "min": 0.05,
-        "max": 2,
-        "step": 0.05,
-        "default": 0.15
-      },
-      {
-        "type": "separator",
-        "label": "🌅 대기 산란 (Atmosphere)"
-      },
-      {
         "type": "toggle",
-        "label": "대기 효과 켜기/끄기",
-        "uniform": "u_atmo_enabled",
+        "label": "Auto Rotate",
+        "uniform": "u_auto_rotate",
         "default": true
       },
       {
         "type": "slider",
-        "label": "대기 강도",
-        "uniform": "u_atmo_intensity",
+        "label": "Rotation Speed",
+        "uniform": "u_auto_rot_speed",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "default": 0.1
+      },
+      {
+        "type": "separator",
+        "label": "🛰️ Orbits"
+      },
+      {
+        "type": "toggle",
+        "label": "Show Orbits",
+        "uniform": "u_show_orbits",
+        "default": true
+      },
+      {
+        "type": "slider",
+        "label": "Orbit Glow",
+        "uniform": "u_orbit_glow",
+        "min": 0,
+        "max": 2,
+        "step": 0.05,
+        "default": 0.8
+      },
+      {
+        "type": "slider",
+        "label": "Trail Length",
+        "uniform": "u_trail_length",
+        "min": 0.05,
+        "max": 0.8,
+        "step": 0.01,
+        "default": 0.3
+      },
+      {
+        "type": "slider",
+        "label": "Animation Speed",
+        "uniform": "u_anim_speed",
         "min": 0,
         "max": 5,
-        "step": 0.05,
+        "step": 0.1,
         "default": 1
       },
       {
-        "type": "slider",
-        "label": "태양 강도",
-        "uniform": "u_atmo_sun_intensity",
-        "min": 1,
-        "max": 60,
-        "step": 1,
-        "default": 20
+        "type": "separator",
+        "label": "🌐 Data Grid"
       },
       {
-        "type": "slider",
-        "label": "태양 각도 (°)",
-        "uniform": "u_atmo_sun_angle",
-        "min": -180,
-        "max": 180,
-        "step": 1,
-        "default": 45
+        "type": "toggle",
+        "label": "Show Grid",
+        "uniform": "u_show_grid",
+        "default": true
+      },
+      {
+        "type": "toggle",
+        "label": "Show Axes (XYZ)",
+        "uniform": "u_show_axes",
+        "default": false
       }
     ],
     "width": 320,

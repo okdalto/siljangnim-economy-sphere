@@ -49,41 +49,41 @@
       },
       "style": {
         "width": 320,
-        "height": 300
+        "height": 386.2878124333413
       }
     },
     {
-      "id": "asset_node_asset_1772946413055_9nsl",
+      "id": "asset_node_asset_1772966553113_tjf4",
       "type": "assetNode",
       "position": {
-        "x": 1086.4705882352941,
-        "y": 546
+        "x": 50,
+        "y": 948
       },
       "style": {
-        "width": 160,
-        "height": 190
+        "width": 180,
+        "height": 200
       }
     }
   ],
   "assets": {
-    "asset_1772946413055_9nsl": {
-      "id": "asset_1772946413055_9nsl",
-      "filename": "2k_earth_daymap.jpg",
-      "category": "image",
-      "semanticName": "2k earth daymap",
+    "asset_1772966553113_tjf4": {
+      "id": "asset_1772966553113_tjf4",
+      "filename": "actual_public_bilateral_trade_flows_us_slice_dec_2025.json",
+      "category": "data",
+      "semanticName": "actual public bilateral trade flows us slice dec 2025",
       "aiSummary": null,
       "detectedFeatures": [],
       "technicalInfo": {},
-      "previewUrl": "blob:https://siljangnim.vercel.app/bea66dfc-df63-4c1c-9daf-8c5884e04775",
+      "previewUrl": null,
       "thumbnailUrl": null,
       "processingStatus": "pending",
       "processingError": null,
       "processorOutputs": [],
       "processorMetadata": {},
-      "mimeType": "image/jpeg",
-      "fileSize": 463087,
-      "createdAt": "2026-03-08T05:06:53.055Z",
-      "updatedAt": "2026-03-08T05:06:53.055Z"
+      "mimeType": "application/json",
+      "fileSize": 4161,
+      "createdAt": "2026-03-08T10:42:33.113Z",
+      "updatedAt": "2026-03-08T10:42:33.113Z"
     }
   }
 }

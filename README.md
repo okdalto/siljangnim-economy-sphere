@@ -1,8 +1,6 @@
-# siljangnim-economy-sphere
+# economy
 
 ![thumbnail](thumbnail.jpg)
-
-siljangnim-economy-sphere
 
 ---
 
