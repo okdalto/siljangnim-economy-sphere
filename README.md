@@ -1,6 +1,6 @@
 # economy
 
-![thumbnail](thumbnail.jpg)
+![thumbnail](thumbnail.jpg?v=1772970636183)
 
 ---
 

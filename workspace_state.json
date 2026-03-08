@@ -1,7 +1,7 @@
 {
   "version": 1,
   "keyframes": {},
-  "duration": 30,
+  "duration": 120,
   "loop": true,
   "node_layouts": [
     {
@@ -41,6 +41,18 @@
       }
     },
     {
+      "id": "assetBrowser",
+      "type": "assetBrowser",
+      "position": {
+        "x": 750,
+        "y": 550
+      },
+      "style": {
+        "width": 320,
+        "height": 380
+      }
+    },
+    {
       "id": "panel_controls",
       "type": "customPanel",
       "position": {
@@ -50,18 +62,6 @@
       "style": {
         "width": 320,
         "height": 386.2878124333413
-      }
-    },
-    {
-      "id": "asset_node_asset_1772966553113_tjf4",
-      "type": "assetNode",
-      "position": {
-        "x": 50,
-        "y": 948
-      },
-      "style": {
-        "width": 180,
-        "height": 200
       }
     }
   ],
@@ -84,6 +84,63 @@
       "fileSize": 4161,
       "createdAt": "2026-03-08T10:42:33.113Z",
       "updatedAt": "2026-03-08T10:42:33.113Z"
+    },
+    "asset_1772966916923_ht94": {
+      "id": "asset_1772966916923_ht94",
+      "filename": "global_trade_flows_2026-02-07_to_2026-03-08_synthetic_10000.json",
+      "category": "data",
+      "semanticName": "global trade flows 2026 02 07 to 2026 03 08 synthetic 10000",
+      "aiSummary": null,
+      "detectedFeatures": [],
+      "technicalInfo": {},
+      "previewUrl": null,
+      "thumbnailUrl": null,
+      "processingStatus": "pending",
+      "processingError": null,
+      "processorOutputs": [],
+      "processorMetadata": {},
+      "mimeType": "application/json",
+      "fileSize": 5500314,
+      "createdAt": "2026-03-08T10:48:36.923Z",
+      "updatedAt": "2026-03-08T10:48:36.923Z"
+    },
+    "asset_1772968946021_yahw": {
+      "id": "asset_1772968946021_yahw",
+      "filename": "dark.jpeg",
+      "category": "image",
+      "semanticName": "dark",
+      "aiSummary": null,
+      "detectedFeatures": [],
+      "technicalInfo": {},
+      "previewUrl": "blob:https://siljangnim.vercel.app/c463504e-53b2-4e61-af72-4f636ba4088f",
+      "thumbnailUrl": null,
+      "processingStatus": "error",
+      "processingError": null,
+      "processorOutputs": [],
+      "processorMetadata": {},
+      "mimeType": "image/jpeg",
+      "fileSize": 175002,
+      "createdAt": "2026-03-08T11:22:26.021Z",
+      "updatedAt": "2026-03-08T11:22:26.021Z"
+    },
+    "asset_1772968946021_qbka": {
+      "id": "asset_1772968946021_qbka",
+      "filename": "normal.png",
+      "category": "image",
+      "semanticName": "normal",
+      "aiSummary": null,
+      "detectedFeatures": [],
+      "technicalInfo": {},
+      "previewUrl": "blob:https://siljangnim.vercel.app/915be107-f1de-460a-b745-366969675eb3",
+      "thumbnailUrl": null,
+      "processingStatus": "error",
+      "processingError": null,
+      "processorOutputs": [],
+      "processorMetadata": {},
+      "mimeType": "image/png",
+      "fileSize": 1364587,
+      "createdAt": "2026-03-08T11:22:26.021Z",
+      "updatedAt": "2026-03-08T11:22:26.021Z"
     }
   }
 }
