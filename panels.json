@@ -1,0 +1,123 @@
+{
+  "controls": {
+    "title": "🌍 Globe & Atmosphere Controls",
+    "controls": [
+      {
+        "type": "separator",
+        "label": "🌐 지구 설정"
+      },
+      {
+        "type": "slider",
+        "label": "카메라 거리",
+        "uniform": "u_camera_distance",
+        "min": 8,
+        "max": 40,
+        "step": 0.5,
+        "default": 17
+      },
+      {
+        "type": "slider",
+        "label": "지구 스케일",
+        "uniform": "u_globe_scale",
+        "min": 0.5,
+        "max": 2,
+        "step": 0.01,
+        "default": 1
+      },
+      {
+        "type": "slider",
+        "label": "Y축 회전 (°)",
+        "uniform": "u_rotation",
+        "min": -180,
+        "max": 180,
+        "step": 1,
+        "default": 0
+      },
+      {
+        "type": "toggle",
+        "label": "UV 플립",
+        "uniform": "u_uv_flip",
+        "default": true
+      },
+      {
+        "type": "slider",
+        "label": "마우스 감도",
+        "uniform": "u_sensitivity",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "default": 1.5
+      },
+      {
+        "type": "separator",
+        "label": "🚀 교역 애니메이션"
+      },
+      {
+        "type": "slider",
+        "label": "애니메이션 속도",
+        "uniform": "u_speed",
+        "min": 0.1,
+        "max": 20,
+        "step": 0.1,
+        "default": 5
+      },
+      {
+        "type": "slider",
+        "label": "트레일 길이",
+        "uniform": "u_trail",
+        "min": 0.05,
+        "max": 0.5,
+        "step": 0.01,
+        "default": 0.16
+      },
+      {
+        "type": "slider",
+        "label": "화물 크기",
+        "uniform": "u_ball_size",
+        "min": 0.05,
+        "max": 2,
+        "step": 0.05,
+        "default": 0.15
+      },
+      {
+        "type": "separator",
+        "label": "🌅 대기 산란 (Atmosphere)"
+      },
+      {
+        "type": "toggle",
+        "label": "대기 효과 켜기/끄기",
+        "uniform": "u_atmo_enabled",
+        "default": true
+      },
+      {
+        "type": "slider",
+        "label": "대기 강도",
+        "uniform": "u_atmo_intensity",
+        "min": 0,
+        "max": 5,
+        "step": 0.05,
+        "default": 1
+      },
+      {
+        "type": "slider",
+        "label": "태양 강도",
+        "uniform": "u_atmo_sun_intensity",
+        "min": 1,
+        "max": 60,
+        "step": 1,
+        "default": 20
+      },
+      {
+        "type": "slider",
+        "label": "태양 각도 (°)",
+        "uniform": "u_atmo_sun_angle",
+        "min": -180,
+        "max": 180,
+        "step": 1,
+        "default": 45
+      }
+    ],
+    "width": 320,
+    "height": 300
+  }
+}
